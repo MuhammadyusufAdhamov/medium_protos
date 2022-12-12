@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edd8a493-057f-45e1-97c4-88eeaf082a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/verify_service/verify_service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_service/category.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_service/category_service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_service/post.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_service/post_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/protoeditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/protoeditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/auth_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/auth_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_service/verify_service.proto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
