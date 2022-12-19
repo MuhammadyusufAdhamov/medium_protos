@@ -12,17 +12,15 @@ message Like {
 }
 
 message GetLikeRequest {
-  int64 id = 1;
+  int64 user_id = 1;
+  int64 post_id = 2;
 }
 
-
-message GetAllLikesRequest {
-  int32 limit = 1;
-  int32 page = 2;
-  string search = 3;
+message GetLikesRequest {
+  int64 post_id = 1;
 }
 
-message GetAllLikesResponse {
-  repeated Like likes = 1;
-  int32 count = 2;
+message LikesDislikesCountResponse {
+  int64 likes = 1;
+  int32 dislikes = 2;
 }
