@@ -29,7 +29,7 @@ message GetCommentRequest {
 
 message GetAllCommentsRequest {
   int64 limit = 1;
-  int32 page = 2;
+  int64 page = 2;
   int64 post_id = 3;
   string search = 4;
 }
