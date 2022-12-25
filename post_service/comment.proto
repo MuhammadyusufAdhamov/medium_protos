@@ -11,6 +11,15 @@ message Comment {
   string description = 4;
   string created_at = 5;
   string updated_at = 6;
+  CommentUser user = 7;
+}
+
+message CommentUser {
+  int64 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string email = 4;
+  string profile_image_url = 5;
 }
 
 message GetCommentRequest {
@@ -19,9 +28,10 @@ message GetCommentRequest {
 
 
 message GetAllCommentsRequest {
-  int32 limit = 1;
+  int64 limit = 1;
   int32 page = 2;
-  string search = 3;
+  int64 post_id = 3;
+  string search = 4;
 }
 
 message GetAllCommentsResponse {
