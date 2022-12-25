@@ -9,7 +9,6 @@ import "google/protobuf/empty.proto";
 
 service CommentService {
   rpc Create(Comment) returns (Comment) {}
-  rpc Get(GetCommentRequest) returns (Comment) {}
   rpc GetAll(GetAllCommentsRequest) returns (GetAllCommentsResponse) {}
   rpc Update(Comment) returns (Comment) {}
   rpc Delete(GetCommentRequest) returns (google.protobuf.Empty) {}
